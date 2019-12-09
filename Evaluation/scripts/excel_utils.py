@@ -12,14 +12,6 @@ import xlrd
 from typing import List
 
 
-# EXCELS_DIR = 'test'
-EXCELS_DIR = 'submissions'
-
-# Minimum presence of each DeCS among other annotators that have annotated the
-# same document, in order to make suggestions to other annotators.
-THRESHOLD = 0.2
-
-
 def read_excel_file(filename: str) -> List[list]:
     '''Return a list with the rows in the Excel file.
     Each row is a list with its cells as its elements.
@@ -71,8 +63,9 @@ def extract_indexings_from_excels_dir(excels_dir: str) -> dict:
     '''Extract the DeCS codes from Excel files inside excel_dir input directory name.'''
     indexings = dict()
     for root, dirs, files in os.walk(excels_dir):
-        for filename in files:
-            if filename.endswith('.xlsx'):
-                filename_relative_path = os.path.join(root, filename)
-                indexings[filename] = parse_excel_file(filename_relative_path)
+        for file in files:
+            if file.endswith('.xlsx'):
+                file_relative_path = os.path.join(root, file)
+                filename = re.sub('\.xlsx$', '', file)
+                indexings[filename] = parse_excel_file(file_relative_path)
     return indexings

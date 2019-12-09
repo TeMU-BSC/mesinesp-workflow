@@ -12,8 +12,8 @@ import json
 import excel_utils
 
 
-# EXCELS_DIR = 'test'
-EXCELS_DIR = 'submissions'
+# EXCELS_DIR = '../old/test'
+EXCELS_DIR = '../submissions'
 
 # Test
 # indexings = {
