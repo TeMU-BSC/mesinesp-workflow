@@ -1,0 +1,16 @@
+Estimado {name},
+
+Le recordamos que hoy, 20 de noviembre, es la fecha límite para enviarnos su resultado de indización de códigos de Descriptores de Ciencias de la Salud (DeCS).
+
+A continuación le facilitamos los enlaces necesarios para realizar la tarea:
+
+Visualizador de abstracts:
+http://temu.bsc.es/decs-abstracts/ 
+
+Formulario en el que adjuntar el Excel cumplimentado:
+https://forms.gle/WLbGyVaBLYwgyyr67
+
+Muchas gracias y saludos cordiales,
+
+Alejandro Asensio
+Web Developer at Barcelona Supercomputing Center

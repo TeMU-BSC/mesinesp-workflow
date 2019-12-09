@@ -1,0 +1,56 @@
+(apologies for cross-postings)
+
+ ///////////////////////////////////////////////////////
+ /// Medical Document Anonymization track (MEDDOCAN) ///
+ ///             at IberLEF 2019 workshop            ///
+ ///        September 24, 2019 (Bilbao, Spain)       ///
+ ///            http://temu.bsc.es/meddocan          ///
+ ///////////////////////////////////////////////////////
+
+
+        Plan TL Sponsoring the MEDDOCAN Track
+               MEDDOCAN Awards 3,400€
+         1,000€ to each sub-track winner,
+   500€ to the second and 200€ to the third teams
+
+
+As part of the IberLEF 2019 (https://sites.google.com/view/iberlef-2019) initiative, we announce the first community challenge task specifically devoted to the anonymization of medical documents in Spanish, called the MEDDOCAN (Medical Document Anonymization) track.
+
+There is a pressing need to identify automatically sensitive information to address, not only to privacy-related issues, but also to better characterize semantically content, in particular electronic health records. Recognizing entities corresponding to sensitive information is of critical importance and impact to enable access both to medical data and to other data resources.
+
+The MEDDOCAN task will be structured into two sub-tracks:
+
+1) Entity recognition and entity type classification (e.g. patient name, phone numbers addresses, etc.)
+2) Sensitive span detection.
+
+
+Publications
+------------
+
+Teams will be invited to send a IberLEF 2019 workshop proceedings system description paper.
+
+We plan to invite selected works for full publication in a Q1 Journal – Special Issue devoted to MEDDOCAN. Invitation to the special issue will consider multiple aspects such as performance, novelty of the system, availability of the underlying system (software/web-service) as well as the workshop presentation.
+
+
+Important Dates
+---------------
+
+March 18, 2019          Sample set and Evaluation script released.
+March 20, 2019          Training set released.
+April 4, 2019           Development set released.
+April 29, 2019          Test set released (includes background set).
+May 17, 2019            End of evaluation period (system submissions).
+May 20, 2019            Results posted and Test set with GS annotations released.
+May 31, 2019            Working notes paper submission.
+June 14, 2019           Notification of acceptance (peer-reviews).
+June 28, 2019           Camera ready paper submission.
+September 24, 2019      IberLEF 2019 Workshop.
+ 
+
+For detailed information, please refer to http://temu.bsc.es/meddocan or sign-up to meddocan@googlegroups.com.
+
+
+Best regards,
+
+Martin Krallinger,
+on behalf of the MEDDOCAN track organizing committee

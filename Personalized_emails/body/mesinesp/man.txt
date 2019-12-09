@@ -1,0 +1,57 @@
+Estimado {name},
+
+Muchas gracias por el interés en la tarea de indización. Tal y como habíamos comentado previamente, le compartimos la muestra de los 10 resúmenes de artículos (abstracts) para indizarlos de forma manual con sus códigos de Descriptores de Ciencias de la Salud (DeCS) correspondientes. Facilitamos también algunos enlaces de interés sobre el proceso de indización y algunas bases de datos. Para hacer el proceso más fácil hemos preparado una página web en la que se pueden visualizar los abstracts y un documento Excel para rellenar con los correspondientes códigos DeCS para cada artículo.
+
+Aitor González (aitor.gonzalez@bsc.es), Alejandro Asensio (alejandro.asensio@bsc.es) y Ankush Rana (ankush.rana@bsc.es) serán los responsables de coordinar el proceso de indización manual.
+
+A continuación, están las instrucciones y un ejemplo de cómo indizar un documento:
+
+Instrucciones
+-------------
+- En el fichero Excel adjunto encontrará 10 columnas, una para cada documento. La cabecera de cada una de estas columnas es el "ID Artículo" que se visualiza aquí.
+- Las casillas azules son para definir la dificultad de indización de cada uno de los documentos en fácil, medio o difícil.
+- Las casillas verdes contienen los descriptores pre-codificados (capítulo 5 del manual). Marque con una "X" la casilla que corresponda.
+- Para añadir más descriptores, use las casillas en gris que hay más abajo, introduciendo los "Número del Registro" que encontrará en el navegador DeCS.
+- También adjunto, encontrará un ejemplo de cómo puede quedar su fichero Excel cumplimentado.
+- Para visualizar los abstracts que le corresponden indizar, acceda a la web http://temu.bsc.es/decs-abstracts/ e introduzca su correo electrónico {email} en la barra superior derecha de esta página web.
+- Una vez acabado, adjunte su Excel cumplimentado a través de este formulario web.
+
+
+Ejemplo
+-------
+- A continuación mostramos un ejemplo de la indización que correspondería al documento con ID 1001 del Excel de ejemplo:
+
+Título:
+Encuesta nacional de factores de riesgo de enfermedades crónicas no transmisibles
+
+ 
+Abstract:
+Con la finalidad de realizar la vigilancia epidemiológica de las Enfermedades Crónicas se realizó una encuesta de prevalencia de los factores de riesgo de estas enfermedades en la población adulta (25 a 64 años) de Uruguay. Se utilizó la metodología STEPS, desarrollada por OMS/OPS para realizar este tipo de estudios. Se encontraron dificultades metodológicas para el cumplimiento de los pasos 2 y 3. El análisis estadístico de los resultados se realizó con el Programa Estadístico R. Los resultados más importantes fueron los siguientes: 33% de la población es fumador diario, 53% de la población se considera bebedor actual (consumió alcohol en los últimos 30 días), el consumo de frutas y/o verduras es en promedio de 3 porciones al día, 6 días a la s emana y el 35% de la población es sedentaria. Más del 90% de la población presenta al menos uno de estos factores de riesgo para ECNT.
+
+
+Códigos:
+Para este documento de ejemplo, los códigos DeCS adecuados para añadir son los siguientes (nótese que son los mismos que aparecen en la imagen de ejemplo):
+
+21034 (Seres Humanos)
+331 (adulto)
+9062 (persona de mediana edad)
+14985 (Uruguay)
+14418 (Tabaquismo)
+440 (Alcoholismo)
+9951 (Obesidad)
+28563 (Enfermedad Crónica)
+1821 (Presión Sanguínea)
+28612 (Factores de Riesgo)
+24419 (Encuestas Sanitarias)
+
+
+NOTA: El resto de IDs de Artículo y DeCS en el Excel de ejemplo son ficticios, solo sirven para mostrar el formato de cómo debe cumplimentarse el Excel.
+
+Si fuera posible, remita los resultados, como máximo, el día 20 de noviembre de 2019. En caso de cualquier duda respecto al proceso de indización, no dude en contactarnos para poder ayudarle.
+
+Por favor, confirme la recepción de este correo respondiendo a este e-mail.
+
+ 
+Muchas gracias y saludos cordiales,
+
+Martin Krallinger

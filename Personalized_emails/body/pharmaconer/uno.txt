@@ -1,0 +1,59 @@
+(apologies for cross-postings)
+
+ 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///                                        *** Call for Participation PharmaCoNER – BioNLP-OST 2019 ***                                        ///
+/// Pharmacological Substances, compounds and proteins and Named Entity Recognition track at BioNLP-OST 2019 collocated with EMNLP-IJCNLP 2019 ///
+///                                                        3 or 4 November 2019 (Hong Kong)                                                    ///
+///                                                         http://temu.bsc.es/pharmaconer                                                     ///
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+
+     Plan TL Sponsoring the PharmaCoNER Track    
+           PharmaCoNER Awards: 3,400€            
+        1,000€ to each sub-track winner,         
+  500€ to the second and 200€ to the third teams
+
+
+ 
+Task description
+
+As part of the BioNLP-OST framework (https://2019.bionlp-ost.org/home), following the outline of previous chemical and drug NER efforts, we organize the first task on chemical and drug mention recognition from Spanish medical texts. This task will address the automatic extraction of chemical, drug, gene/protein mentions from clinical case studies written in Spanish.
+
+Efficient access to mentions of drugs, medications and chemical entities is a pressing need shared by biomedical researchers, clinicians and pharma industry. The recognition of pharmaceutical drugs and chemical entities is a critical step required for the subsequent detection of relations of chemicals with other biomedically relevant entities.
+
+The main aim is to promote the development of named entity recognition tools of practical relevance, that is chemical and drug mentions in non-English content, determining the current-state-of-the art, identifying challenges and comparing the strategies and results to those published for English data.
+
+The PharmaCoNER task will be structured into two sub-tracks:
+
+1) Track 1: NER offset and entity classification.
+
+2) Track 2: Concept indexing.
+
+
+Publications
+
+As a venue to compile the results of the follow-up investigation, a journal special issue will be organized to be published a few months after the workshop. The specific journal will be announced. More information at the BioNLP-OST 2019 webpage.
+
+
+Important Dates
+
+March 18, 2019:    Sample set and Evaluation script released.
+March 26, 2019:    Training set released.
+March 26, 2019:    Development set released.
+May 31, 2019:      Test set released (includes background set).
+June 25, 2019:     End of evaluation period (system submissions).
+July 1, 2019:      Results posted and Test set with GS annotations released.
+July 19, 2019:     Working notes paper submission.
+TBD:               Notification of acceptance (peer-reviews).
+TBD:               Camera ready paper submission.
+November, 2019:    BioNLP-OST 2019 Workshop.
+ 
+
+Additional information is available at http://temu.bsc.es/pharmaconer or sign-up to pharmaconer@googlegroups.com.
+ 
+
+Best regards,
+
+   Martin Krallinger,
+   on behalf of the PharmaCoNER track organizing committee

@@ -1,0 +1,67 @@
+Estimada {name},
+
+Estamos organizando la primera campaña competitiva de anonimización de textos médicos en español, en el marco del próximo foro IberLEF 2019 / SEPLN.
+
+Con más de 470 millones de hablantes nativos, existe un interés creciente en procesar no solo los textos médicos. Se calcula que cada 10 minutos se redactan decenas de miles de HCE en instituciones médicas españolas.
+
+El objetivo principal es promover el desarrollo de herramientas de desidentificación de relevancia práctica, determinar el estado actual de la técnica, identificar los desafíos y comparar las estrategias y los resultados con los datos publicados en inglés.
+
+-------------------------------------------------------------
+
+(apologies for cross-postings)
+
+     ///////////////////////////////////////////////////////
+     /// Medical Document Anonymization track (MEDDOCAN) ///
+     ///               foro IberLEF 2019                 ///
+     ///      24 Septiembre 2019 (Bilbao, España)        ///
+     ///          http://temu.bsc.es/meddocan            ///
+     ///////////////////////////////////////////////////////
+
+              Plan TL Patrocina la tarea MEDDOCAN
+                    Premios MEDDOCAN: 3.400€
+1.000€ para el primer equipo clasificado de cada una de las tareas,
+   500€ para los segundos clasificados y 200€ para los terceros
+
+
+Como parte de la iniciativa IberLEF 2019 (https://sites.google.com/view/iberlef-2019), la OTG de Sanidad del Plan TL organiza la tarea “Medical Document Anonymization (MEDDOCAN)”, la primera campaña competitiva específicamente dedicada a la anonimización de documentos médicos en español.
+
+Existe una necesidad apremiante de identificar automáticamente la información confidencial para abordar, no solo los problemas relacionados con la privacidad, sino también para caracterizar mejor el contenido semánticamente, en particular, los registros electrónicos de salud. Reconocer las entidades que corresponden a información sensible es de importancia crítica e impacto para permitir el acceso tanto a los datos médicos como a otros recursos de datos.
+
+La tarea de MEDDOCAN se estructurará en dos sub-tareas:
+
+1) Identificación y clasificación de información sensible (p.ej. Nombres de pacientes, teléfonos, direcciones, etc.)
+2) Detección de texto sensible.
+
+
+Publicaciones
+-------------
+
+La descripción de los sistemas participantes se publicará en las actas del taller IberLEF 2019.
+
+Además, se invitará a aquellos trabajos seleccionados a participar en un número especial dedicado a MEDDOCAN en una revista Q1. La invitación considerará varios aspectos, como los resultados obtenidos, la novedad del sistema, la disponibilidad del sistema (software / servicio web), así como la presentación del taller.
+ 
+
+Fechas importantes
+------------------
+
+18 marzo       Lanzamiento del conjunto de muestra y del script de evaluación.
+20 marzo       Lanzamiento del conjunto de entrenamiento.
+4 abril        Lanzamiento del conjunto de desarrollo.
+29 abril       Lanzamiento del conjunto de prueba (incluido el conjunto background).
+17 mayo        Final del periodo de evaluación (envío del sistema).
+20 mayo        Publicación de resultados y conjunto de pruebas con anotaciones de GS.
+31 mayo        Envío de descripción de sistemas.
+14 junio       Notificación de aceptación (revisión por pares).
+28 junio       Envío de artículos (versión final).
+24 sept.       Foro IberLEF 2019.
+ 
+
+Te agradecemos la difusión de la convocatoria para la participación en MEDDOCAN a personas que consideres potencialmente interesadas.
+
+Para obtener información detallada, consulta http://temu.bsc.es/meddocan o date de alta en meddocan@googlegroups.com.
+ 
+
+Atentamente,
+
+Martin Krallinger,
+en nombre del comité organizador de MEDDOCAN

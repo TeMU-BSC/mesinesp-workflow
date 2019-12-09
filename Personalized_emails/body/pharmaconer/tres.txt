@@ -1,0 +1,72 @@
+Estimado {name},
+
+Estamos organizando la primera campaña de evaluación sobre el reconocimiento de fármacos, medicamentos y sustancias químicas en textos médicos en español, llamada PharmaCoNER, como parte del próximo taller BioNLP-OST 2019/EMNLP-IJCNLP 2019.
+
+El objetivo principal es promover el desarrollo de herramientas de reconocimiento automático de entidades de relevancia para farmacología y medicina de relevancia práctica, determinar el estado actual de la técnica, identificar desafíos y comparar las estrategias y los resultados con los publicados para datos en inglés.
+
+ 
+----------------------------------------------
+ 
+
+(apologies for cross-postings)
+
+ 
+///////////////////////////////////////////////////////////////////////////////////////
+/// Pharmacological Substances, compounds and proteins and Named Entity Recognition ///
+///                 Foro BioNLP-OST 2019 en EMNLP-IJCNLP 2019                       ///
+///                     3 or 4 noviembre 2019 (Hong Kong)                           ///
+///                       http://temu.bsc.es/pharmaconer                            ///
+///////////////////////////////////////////////////////////////////////////////////////
+ 
+
+                Plan TL patrocina la tarea  PharmaCoNER
+                      Premios PharmaCoNER: 3,400€
+   1.000€ para el primer equipo clasificado de cada una de las tareas,
+     500€ para los segundos clasificados y 200€ para los terceros
+
+ 
+
+Task description
+
+El acceso eficiente a las menciones de fármacos, medicamentos y sustancias químicas es una necesidad apremiante compartida por investigadores biomédicos, clínicos y la industria farmacéutica. El reconocimiento de fármacos y sustancias químicas es un paso imprescindible para la detección posterior de las relaciones de sustancias químicas con otras entidades biomédicas relevantes.
+
+Estamos organizando la primera campaña de evaluación sobre el reconocimiento de fármacos, medicamentos y sustancias químicas en textos médicos en español llamada PharmaCoNER, como parte del próximo taller BioNLP-OST 2019/EMNLP-IJCNLP 2019  (https://2019.bionlp-ost.org/home). Esta tarea abordará la extracción automática de fármacos, medicamentos y sustancias químicas  de casos clínicos escritos en español.
+
+La tarea de PharmaCoNER se estructurará en dos sub-tareas:
+
+1) Identificación y clasificación de entidades.
+
+2) Indización de conceptos.
+
+
+Publicación
+
+Con el objetivo de recoger los resultados de la investigación, se organizará un número especial de revista que se publicará unos meses después del taller. Más información en la página web de BioNLP-OST 2019.
+
+
+Fechas importantes
+
+18 de marzo:        Lanzamiento del conjunto de muestra y del script de evaluación
+26 de marzo:        Lanzamiento del conjunto de entrenamiento.
+26 de marzo:        Lanzamiento del conjunto de desarrollo. Development set released.
+31 de mayo:         Lanzamiento del conjunto de prueba (incluido el conjunto background).
+25 de junio:        Final del periodo de evaluación (envío del sistema).
+1 de julio:         Publicación de resultados y conjunto de pruebas con anotaciones de GS
+19 de julio:        Envío de descripción de sistemas.
+Por confirmar:      Notificación de aceptación (revisión por pares).
+Por confirmar:      Envío de artículos (versión final)
+2-3 de noviembre:   Foro BioNLP-OST 2019.
+ 
+
+Para obtener información detallada, consulta:http://temu.bsc.es/pharmaconer or date de alta or pharmaconer@googlegroups.com.
+
+Te agradecemos la difusión de la convocatoria para la participación en MEDDOCAN a personas que consideres potencialmente interesadas.
+
+
+Atentamente,
+
+   Martin Krallinger,
+   en nombre del comité organizador de PharmaCoNER
+
+
+

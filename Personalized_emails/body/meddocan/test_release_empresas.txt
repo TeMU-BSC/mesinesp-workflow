@@ -1,0 +1,51 @@
+
+(apologies for cross-postings)
+
+  ///////////////////////////////////////////////////////
+  //  Medical Document Anonymization track (MEDDOCAN)  //
+  //                 foro IberLEF 2019                 //
+  //       24 Septiembre 2019 (Bilbao, España)         //
+  //           http://temu.bsc.es/meddocan             //
+  ///////////////////////////////////////////////////////
+
+                 Plan TL Patrocina la tarea MEDDOCAN
+                       Premios MEDDOCAN: 3.400€
+  1.000€ para el primer equipo clasificado de cada una de las tareas,
+     500€ para los segundos clasificados y 200€ para los terceros
+
+
+Como parte de la iniciativa IberLEF 2019 (https://sites.google.com/view/iberlef-2019), la OTG de Sanidad del Plan TL organiza la tarea “Medical Document Anonymization (MEDDOCAN)”, la primera campaña competitiva específicamente dedicada a la anonimización de documentos médicos en español.
+
+Existe una necesidad apremiante de identificar automáticamente la información confidencial para abordar, no solo los problemas relacionados con la privacidad, sino también para caracterizar mejor el contenido semánticamente, en particular, los registros electrónicos de salud. Reconocer las entidades que corresponden a información sensible es de importancia crítica e impacto para permitir el acceso tanto a los datos médicos como a otros recursos de datos.
+
+La tarea de MEDDOCAN se estructurará en dos sub-tareas:
+
+1) Identificación y clasificación de información sensible (p.ej. Nombres de pacientes, teléfonos, direcciones, etc.)
+
+2) Detección de texto sensible.
+
+
+Fechas importantes
+
+18 marzo    Lanzamiento del conjunto de muestra y del script de evaluación.
+20 marzo    Lanzamiento del conjunto de entrenamiento.
+4 abril     Lanzamiento del conjunto de desarrollo. Development set released.
+29 abril    Lanzamiento del conjunto de prueba (incluido el conjunto background).
+17 mayo     Final del periodo de evaluación (envío del sistema).
+20 mayo     Publicación de resultados y conjunto de pruebas con anotaciones de GS.
+31 mayo     Envío de descripción de sistemas.
+14 junio    Notificación de aceptación (revisión por pares).
+28 junio    Envío de artículos (versión final).
+24 sept.    Foro IberLEF 2019.
+
+La inscripción de la tarea se realiza a través de la plataforma CodaLab en el siguiente enlace: https://competitions.codalab.org/competitions/22643
+
+Te agradecemos la difusión de la convocatoria para la participación en MEDDOCAN a personas que consideres potencialmente interesadas.
+
+Para obtener información detallada, consulta: http://temu.bsc.es/meddocan o el Google Group de MEDDOCAN: https://groups.google.com/forum/#!forum/meddocan
+
+ 
+Atentamente,
+
+    Martin Krallinger
+    en nombre del comité organizador de MEDDOCAN

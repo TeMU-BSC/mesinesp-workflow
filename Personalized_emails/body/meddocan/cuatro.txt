@@ -1,0 +1,68 @@
+Kaixo {name},
+
+Gaztelerazko testu medikuen lehen anonimizazio kanpaina antolatzen ari gara SEPLN-eko IberLEF 2019 Workshop-ean.
+
+Gaztelerak 470 milioi hiztun ditu, eta hizkuntza honetako testu medikoak prozesatzeak geroz eta interes handiagoa du. Testu medikoez gainera, minuturo milaka Historia Kliniko Elektroniko (HKE) sortzen dira espainiar instituzio medikoetan.
+
+Kanpaina honen helburu nagusia anonimizazio tresnen garatzea sustatzea da, gaur egungo egoera aztertzea, erronkak zehaztea, eta estrategia eta emaitzak ingelesez argitaratutakoekin alderatzea.
+
+-------------------------------------------------------------
+
+(barkatu mezu honen hedatze anitza)
+
+
+     ///////////////////////////////////////////////////////
+     /// Medical Document Anonymization track (MEDDOCAN) ///
+     ///                    IberLEF 2019                 ///
+     ///             2019ko Irailak 24 (Bilbo)           ///
+     ///            http://temu.bsc.es/meddocan          ///
+     ///////////////////////////////////////////////////////
+ 
+
+              Plan TL-ek MEDDOCAN ataza babesten du
+                    MEDDOCAN sariak: 3.400€
+          1.000€ azpi-ataza bakoitzeko irabazlearentzat,
+         500€ bigarrengoentzat eta 200€ hirugarrenentzat
+
+
+IberLEF 2019(https://sites.google.com/view/iberlef-2019) ekimenaren barnean, Plan TL-ek “Medical Document Anonymization (MEDDOCAN)” ataza antolatzen du, gaztelerazko testu medikuen anonimizaziorako lehen kanpaina.
+
+Isilpeko informazioa automatikoki identifikatzeko premia dago, ez bakarrik pribatutasunarekin erlazionatutako arazoengaitik, baita ere erregistro elektronikoak semantikoki hobeto karakterizatu ahal izateko. Informazio pribatua duten entitateak identifikatzeak garrantzi kritikoa du datu medikuak eskuragarri eduki nahi baditugu.
+
+MEDDOCAN ataza bi azpi-atazaz dago osatua:
+
+1) Isilpeko informazioa duten entitateen identifikazioa eta sailkapena (gaixoen izenak, telefonoak, helbideak, eta abar).
+2) Isilpeko informazioa duen textuaren detekzioa.
+
+ 
+
+Argitalpenak
+
+Parte hartzen duten sistemen deskribapenak IberLEF 2019-ko aktetan publikatuko dira.
+
+Horrez gain, lan onenak MEDDOCAN-i buruz bereziki egingo den Q1 aldizkari bateko zenbaki berezi batean parte hartzera gondidatuko dira. Gondidapen honen parte izateko hainbat ezaugarri hartuko dira kontuan: lortutako emaitzak, sistemak aurkeztu duen berritasun maila, sistemaren eskuragarritasuna, eta baita ere tailerrean egingo den aurkezpena.
+
+ 
+
+Epe garrantzisuak
+
+Martxoak 18       Lagin multzoa eta ebaluazio script-a eskuragarri.
+Martxoak 20       Entrenamendu multzoa eskuragarri.
+Apirilak 4            Garapen multzoa eskuragarri.
+Apirilak 29          Test multzoa eskuragarri (hondo multzoaren barnean).
+Maiatzak 17       Ebaluazio periodoaren amaiera (sistemak bidaltzeko epea).
+Maiatzak 20        Emaitzen argitalpena eta test multzoa urre patroiekin eskuragarri.
+Maiatzak 31        Sistemen deskribapenak bidaltzeko epearen amaiera.
+Ekainak 14          Onarpenaren jakinarazpena (peer-review).
+Ekainak 28          Artikuluak bidali (azken bertsioa).
+Irailak 24             IberLEF 2019 workshop-a.
+ 
+
+MEDDOCAN-en parte hartzeko interesa izan dezakeen inori deialdi hau berbidaltzea eskertzen dizugu.
+
+Informazio gehiago nahi izanez gero, bisita ezazu http://temu.bsc.es/meddocan edo eman izena meddocan@googlegroups.com taldean.
+
+Adeitasunez,
+
+Aitor Gonzalez-Agirre,
+MEDDOCAN-eko antolakuntza batzordearen izenean

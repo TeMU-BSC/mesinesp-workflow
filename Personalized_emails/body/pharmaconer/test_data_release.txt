@@ -1,0 +1,35 @@
+(apologies for cross-postings)
+
+///////////////////////////////////////////////////////////////////////////////////////
+///             *** Test data (including background set) release ***                ///
+/// Pharmacological Substances, compounds and proteins and Named Entity Recognition ///
+///         track at BioNLP-OST 2019 collocated with EMNLP-IJCNLP 2019              ///
+///                     3 or 4 November 2019 (Hong Kong)                            ///
+///                      http://temu.bsc.es/pharmaconer                             ///
+///////////////////////////////////////////////////////////////////////////////////////
+
+                    Plan TL Sponsoring the PharmaCoNER Track
+                          PharmaCoNER Awards: 3,400€
+                     1,000€ to each sub-track winner teams,
+                  500€ to the second and 200€ to the third teams
+
+ 
+We are pleased to announce the release of the test data (only text) for the PharmaCoNER shared track. Remember that in terms of participating submissions, we allow up to 5 runs by each registered team.
+
+Please, use CodaLab to submit your system at: 
+
+    https://competitions.codalab.org/competitions/23159
+
+
+For more details on the shared task, please see the website:
+
+    http://temu.bsc.es/pharmaconer/  
+
+or PharmaCoNER Google Group: 
+
+    https://groups.google.com/forum/#!forum/pharmaconer
+
+
+Best regards,
+    Montserrat Marimon
+    on behalf of the PharmaCoNER track organizing committee

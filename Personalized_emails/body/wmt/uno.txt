@@ -1,0 +1,41 @@
+Dear all,
+
+We are pleased to announce the fourth edition of our shared task on biomedical translation in the Fourth Conference on Machine Translation (WMT'19). This task aims to evaluate systems on the translation of documents and terminologies from the biomedical domain. This year, we will address the following language pairs and test sets:
+
+ 
++ English-Chinese and Chinese-English
++ English-French and French-English
++ English-German and German-English
++ English-Portuguese and Portuguese-English
++ English-Spanish and Spanish-English
+
+Test sets:
+
++ Scientific abstracts from Medline
++ Translation of terms from biomedical terminologies
+
+
+Please find more information on the dedicated shared task page:
+
+http://www.statmt.org/wmt19/biomedical-translation-task.html
+
+Important dates:
+
++ Release of test data: April 26, 2019
++ Results submission deadline: May 3, 2019
++ Paper submission deadline: May 17, 2019
++ Paper notification: June 7, 2019
++ Camera-ready version due: June 17, 2019
++ Conference in Florence: August 1 - 2, 2019
+
+Best regards,
+
+Cristian Grozea (Fraunhofer Institute, Germany)
+Antonio Jimeno Yepes (IBM Research Australia)
+Madeleine Kittner (Humboldt-Universität zu Berlin, Germany)
+Martin Krallinger (Centro Nacional de Investigaciones Oncológicas - CNIO, Barcelona Supercomputing Center - BSC, Spain)
+Aurélie Névéol (LIMSI, CNRS, France)
+Mariana Neves (German Federal Institute for Risk Assessment, Germany)
+Felipe Soares (Barcelona Supercomputing Center - BSC, Spain)
+Amy Siu (Beuth University of Applied Sciences, Germany)
+Karin Verspoor (University of Melbourne, Australia)
