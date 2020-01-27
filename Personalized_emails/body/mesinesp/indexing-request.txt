@@ -1,0 +1,24 @@
+Hola {fullname}:
+
+Tras el aporte que nos diste meses atrás con la indización de prueba (a través de un Excel) para la tarea MESINESP (temu.bsc.es/mesinesp), nos volvemos a poner en contacto contigo porque ya tenemos en producción nuestra herramienta web automatizada para la indización de códigos DeCS.
+
+He creado un usuario para que puedas utilizar nuestra herramienta. Abre el navegador Google Chrome o Mozilla Firefox la siguiente dirección web e inicia sesión con tus credenciales:
+
+bsccnio01.bsc.es
+
+Email: {email}
+Contraseña: {password}
+
+Verás que tienes asignados 20 documentos. Los descriptores que añadas en la caja que verás bajo cada abstract ayudarán a mejorar la calidad de indización de dichos documentos. Cuando hayas terminado con un documento, haz clic en el botón "Marca como completado".
+
+Consideraciones a tener en cuenta:
+- Los códigos que pertenezcan a la categoría "Tipo de Publicación" no están contemplados en esta tarea, así que no los verás sugeridos en la caja de auto-completado.
+- Si estamos buscando un descriptor que sabemos que existe pero no lo vemos sugerido en el auto-completado, debemos "Abrir el buscador DeCS" oficial (enlace que encontrarás dentro del menú en la esquina superior derecha de la web). Cuando hayamos encontrado el descriptor deseado, pegamos su "número de registro" en nuestra caja de auto-completado.
+- Cuando se añade un nuevo descriptor a un documento, se guarda en la base de datos automáticamente, pero el recuento de descriptores de la tabla no se actualizará hasta refresquemos la página (mejoraremos esto próximamente).
+
+Puedes darme cualquier tipo de feedback respecto a la herramienta web respondiendo a este mismo email.
+
+Muchas gracias por tu colaboración.
+
+Alejandro Asensio
+Web Developer at Barcelona Supercomputing Center

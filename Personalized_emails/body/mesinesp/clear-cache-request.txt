@@ -1,0 +1,14 @@
+Hola {fullname}:
+
+Acabo de aplicar algunas mejoras en la herramienta web:
+1. Aparece un círculo animado mientras se cargan los documentos assignados.
+2. Al buscar en la caja, si escribimos sin querer dobles espacios entre las palabras (error humano frecuente), el motor de búsqueda lo ignora y las opciones sugeridas seguirán apareciendo.
+
+Para asegurar que estás trabajando con esta última versión se debe borrar la caché de tu navegador. Para ello, abre la página bsccnio01.bsc.es, si tienes la sesión iniciada, cierra sesión, y refresca la página pulsando:
+
+Ctrl + F5
+
+Muchas gracias por tu colaboración.
+
+Alejandro Asensio
+Web Developer at Barcelona Supercomputing Center

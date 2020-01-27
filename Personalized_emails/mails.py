@@ -1,3 +1,10 @@
+'''
+Script to send personalized mails using TXT and HTML template files.
+
+Author: Aitor González <aitor.gonzalez@bsc.es>
+Refactored by: Alejandro Asensio <alejandro.asensio@bsc.es>
+'''
+
 import csv
 import os
 import smtplib
@@ -11,44 +18,54 @@ from email import encoders
 from getpass import getpass
 
 
+# Hardcoded variables
+KEYWORD = input('Template KEYWORD: ')
+senders_list = os.path.join(f'{KEYWORD}.csv')
+body = {
+    'plain': os.path.join('body', 'mesinesp', f'{KEYWORD}.txt'),
+    'html': os.path.join('body', 'mesinesp', f'{KEYWORD}.html'),
+}
+visual_from_addr = 'alejandro.asensio@bsc.es'
+cc = ['martin.krallinger@bsc.es', 'aitor.gonzalez@bsc.es']
+
+# BSC corporate mail credentials
 host = 'mail.bsc.es'
 port = 465
-username = input('[From] BSC intranet username: ')
+username = input('BSC intranet username [From]: ')
 password = getpass()
-csv_senders_list = input('[To] CSV file containing senders list: ')
-cc = ['krallinger.martin@gmail.com']
-context = ssl.create_default_context()
 
+# Stablish mailing server connection
+context = ssl.create_default_context()
 with smtplib.SMTP_SSL(host, port, context=context) as server:
     server.login(username, password)
-    with open(csv_senders_list) as file:
-        reader = csv.reader(file)
-        # senders_number = len(list(reader))
+
+    senders_length = 0
+    with open(senders_list) as csv_file:
+        reader = csv.reader(csv_file)
+
         next(reader)  # Skip header row
-        for ann_id, name, email, subject, body, sample_id in reader:
+        for id, fullname, email, password, subject in reader:
+            senders_length += 1
+
+            message = MIMEMultipart("alternative")
+            message['From'] = visual_from_addr
             to = []
             to.append(email)
-            
-            message = MIMEMultipart("alternative")
-            message["Subject"] = Header(subject, 'utf-8')
-            message["From"] = "alejandro.asensio@bsc.es"
-            message["To"] = ','.join(to)
-            message["Cc"] = ','.join(cc)
+            message['To'] = ','.join(to)
+            message['Cc'] = ','.join(cc)
+            message['Subject'] = Header(subject, 'utf-8')
 
-            # text = open(os.path.join('body', 'mesinesp', body + '.txt'), 'r').read()
-            # html = open(os.path.join('body', 'mesinesp', body + '.html'), 'r').read()
-            
-            with open(os.path.join('body', 'mesinesp', body + '.txt'), 'r') as text_file:
-                text = text_file.read()
-            part1 = MIMEText(text, "plain")
+            with open(body['plain']) as text_file:
+                plain = text_file.read()
+            part1 = MIMEText(plain, 'plain')
             message.attach(part1)
 
-            with open(os.path.join('body', 'mesinesp', body + '.html'), 'r') as html_file:
+            with open(body['html']) as html_file:
                 html = html_file.read()
-            part2 = MIMEText(html, "html")
+            part2 = MIMEText(html, 'html')
             message.attach(part2)
 
-            # === Attachments ===
+            # ===== Attachments =====
 
             # filename = 'sample-' + sample_id + '.xlsx'
             # attachment = open(filename, "rb")
@@ -66,18 +83,24 @@ with smtplib.SMTP_SSL(host, port, context=context) as server:
             # part4.add_header('Content-Disposition', "attachment; filename= %s" % filename)
             # message.attach(part4)
 
+            # ===== END Attachments =====
+
             # Command line output
-            print(f"Sending to '{name}<{email}>'...")
-            print(f'Message: {message}')
+            print(f"Sending email to '{fullname}<{email}>'...")
+            # print(f'Message: {message}')
 
             # Wait 1 second before send each email to avoid collapsing the mail server
             time.sleep(1)
-            # server.sendmail(
-            #     message["From"],
-            #     (to + cc),
-            #     # message.as_string().format(name=name, email=email, sample_id=sample_id).encode('utf-8'),
-            #     message.as_string().format(name=name).encode('utf-8'),
-            # )
-        
-        # print(f'Finished OK. {senders_number} have been sent successfully.')
-        print(f'Finished OK. The emails have been sent successfully.')
+
+            # Finally send the email
+            server.sendmail(
+                message['From'],
+                (to + cc),
+                message.as_string().format(
+                    fullname=fullname,
+                    email=email,
+                    password=password
+                ).encode('utf-8')
+            )
+
+    print(f'Finished OK. {senders_length} email(s) have been sent successfully.')
