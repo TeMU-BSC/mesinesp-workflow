@@ -1,0 +1,25 @@
+Hola {fullname}:
+
+Hemos terminado la implementación de la segunda parte de esta tarea: la fase de validación.
+
+Tras entrar en el portal bsccnio01.bsc.es, iniciar sesión y navegar a "Ver mis documentos asignados" (bsccnio01.bsc.es/docs), verás dos columnas nuevas:  
+
+- Validado (Sí / No)
+- DeCS validados (cantidad de códigos por documento)
+
+Al hacer clic en un documento, verás sugerencias presentadas en forma de pastillas en la caja de la "Fase 2: Validación". Deberás validar dichas sugerencias hasta que consideres que la indización está lo más correcta posible:
+
+- Si consideras que un descriptor es adecuado: déjalo.
+- Si consideras que un descriptor no es adecuado: bórralo.
+- Si condideras que falta algún descriptor adicional: agrégalo (usando el mismo método que en la fase anterior).
+- Si condideras que faltan algunos descriptores: agrega los que estimes oportunos usando el mismo método que la fase anterior.
+
+Finalmente, pulsa el botón "Validar indización". Dicha acción no podrá deshacerse. Los descriptores que queden en esta caja serán tus indizaciones definitivas.
+
+La fecha límite para completar esta fase 2 de validación es el día 16-03-2020.
+
+Quedo atento a cualquier comentario o duda.
+Un saludo,
+
+Alejandro Asensio
+Web Developer at Barcelona Supercomputing Center

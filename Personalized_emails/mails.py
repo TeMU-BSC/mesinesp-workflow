@@ -44,7 +44,8 @@ with smtplib.SMTP_SSL(host, port, context=context) as server:
         reader = csv.reader(csv_file)
 
         next(reader)  # Skip header row
-        for id, fullname, email, password, subject in reader:
+        # for id, fullname, email, password, subject in reader:
+        for id, fullname, email, subject in reader:
             senders_length += 1
 
             message = MIMEMultipart("alternative")
@@ -99,7 +100,7 @@ with smtplib.SMTP_SSL(host, port, context=context) as server:
                 message.as_string().format(
                     fullname=fullname,
                     email=email,
-                    password=password
+                    # password=password
                 ).encode('utf-8')
             )
 
