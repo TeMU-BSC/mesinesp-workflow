@@ -1,0 +1,16 @@
+Hola {fullname}:
+
+Acabamos de asignarte los últimos 74 documentos para completar los 500 en total.
+
+Inicia sesión en nuestra herramienta bsccnio01.bsc.es y navega a "Ver mis documentos asignados".
+En las columnas Completado/Validado, filtra por "No" para ver dichos documentos recién asignados.
+Para terminar la tarea más rapida y eficazmente, te sugerimos que tras indizar cada documento, lo valides a continuación, así tendrás el contenido del abstract más fresco.
+
+La fecha límite para completar los 500 documentos finales es el día 20-03-2020.
+Entendemos que es un tiempo limitado y te pedimos disculpas por habernos demorado en asignar estos documentos finales. En caso que no puedas completarlos, haz tantos como te sea posible.
+
+No dudes en escribirnos ante cualquier comentario o duda.
+Un saludo,
+
+Alejandro Asensio
+Web Developer at Barcelona Supercomputing Center
