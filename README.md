@@ -28,7 +28,8 @@
 	+ comment lines: 49, 92
 
 	+ uncomment lines: 48, 91, 103
-If not: 
+
+º	If not: 
 
 	+ uncomment lines: 49, 92
 
@@ -38,7 +39,7 @@ If not:
 
 ```
 python mails.py 
-Template KEYWORD: 
+Template KEYWORD: <keyword>
 BSC intranet username [From]: <intranet username>
 Password: <intranet password>
 ```
