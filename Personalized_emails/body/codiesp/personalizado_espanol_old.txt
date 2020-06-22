@@ -1,0 +1,119 @@
+Hola {fullname}:
+
+*** Call for Participation CodiEsp: Clinical Case Coding Task (eHealth CLEF 2020) ***
+
+ 
+
+
+CodiEsp (eHealth CLEF– Multilingual Information Extraction) Shared Task on automatic assignment of ICD10 codes (procedures, diagnosis) track at CLEF 2020
+
+http://temu.bsc.es/codiesp
+
+ 
+
+Premios Plan TL para el track CodiEsp
+
+ 
+
+ 
+
+Sub-tracks de CodiEsp:
+
+ 
+
+1.CodiEsp Diagnóstico sub-task (CodiEsp-D): asignación automática de códigos CIE10 Diagnóstico.
+
+2.CodiEsp Procedimiento sub-task (CodiEsp-P): asignación automática de códigos CIE10 Procedimiento.
+
+3.CodiEsp Explainable AI Subtask (CodiEsp-X). Los sistemas deben enviar la referencia textual de los códigos predichos (Diagnóstico y Procedimiento).
+
+
+
+Descripción de la tarea
+
+La codificación clínica consiste en la transformación (o clasificación) de textos médicos escritos por personal sanitario en un formato estructurado usando códigos reconocidos internacionalmente.
+
+Estos códigos describen el diagnóstico o tratamiento de un paciente. Este proceso es crítico para estandarizar informes clínicos; permitir estudio etiológicos, monitorizar tendencias sanitarias, estudios epidemiológicos, investigación clínica y biomédica, toma de decisiones e incluso reembolso de pagos.
+
+ 
+
+Debido a la importancia de este proceso, hay ahora programas educativos especializados y puestos de trabajo de personas empleadas como codificadores médicos o técnicos de informes médicos.
+
+  
+
+ 
+
+Como parte de eHealth CLEF (http://clef-ehealth.org) Multilingual Information Extraction Shared Task organizamos CodiEsp: Clinical Case Coding Task (http://temu.bsc.es/codiesp).  Esta tarea se enfoca en la extracción y asignación automática de códigos (diagnósticos y procedimientos) a casos clínicos en español.
+
+
+Además de los textos en español, los conjuntos de entrenamiento, desarrollo y test se distribuirán también traducidos al inglés.
+
+
+ 
+
+Los sistemas participantes tienen que asignar automáticamente códigos CIE-10 a los casos clínicos. Estos códigos serán evaluados contra códigos CIE-10 asignados manualmente.
+
+ 
+
+Además de los textos en español, los conjuntos de entrenamiento, desarrollo y test se distribuirán también traducidos al inglés.
+
+ 
+
+En la estela del éxito previo de otras tareas como MEDDOCAN o PharmaCoNER, preveemos que esta tarea será influyente para determinar cuáles son los enfoques más competitivos (búsquedas de términos sofisticadas, clasificación multiclases usando aprendizaje automático, etc).
+
+ 
+
+--------------------------------------
+
+Participación e información de interés
+
+--------------------------------------
+
+1. CodiEsp web, info & descripción detallada: http://temu.bsc.es/codiesp/
+
+2. Registro para CodiEsp (Multilingual Information Extraction eHealth track): http://temu.bsc.es/codiesp/index.php/2019/09/19/registration/
+
+3. Conjuntos de entrenamiento y desarrollo: https://zenodo.org/record/3633048#.XjRNut-YU5k
+
+4. Recursos adicionales: https://zenodo.org/record/3606626#.XhyWLN-YU5k
+
+ 
+
+------------------------
+
+Organizadores principales CodiEsp Track
+
+------------------------
+
+·  Martin Krallinger, Barcelona Supercomputing Center.
+
+·  Antonio Miranda, Barcelona Supercomputing Center.
+
+·  Aitor Gonzalez-Agirre, Barcelona Supercomputing Center.
+
+·  Marta Villegas, Barcelona Supercomputing Center.
+
+·  Jordi Armengol, Barcelona Supercomputing Center.
+
+
+------------------------
+
+Fechas importantes
+
+------------------------
+
+Ene 13            Publicación de los conjuntos de entrenamiento, desarrollo y recursos adicionales (en español)
+
+Febrero 12        Publicación de los conjuntos de entrenamiento y desarrollo (traducción automática al inglés)
+
+Abril 28          Presentación de la tarea en MIE2020 (Ginebra) 
+
+Mayo 3            Finalización de la evaluaciónEnd of evaluation
+
+Mayo 5            Notificación de los resultados
+
+Mayo  24          Envío del artículo científico
+
+Jun 28            Versión final del artículo
+
+Sep 22-25         CLEF 2020 Conference (Thessaloniki, Greece)

@@ -22,11 +22,11 @@ from getpass import getpass
 KEYWORD = input('Template KEYWORD: ')
 senders_list = os.path.join(f'{KEYWORD}.csv')
 body = {
-    'plain': os.path.join('body', 'mesinesp', f'{KEYWORD}.txt'),
-    'html': os.path.join('body', 'mesinesp', f'{KEYWORD}.html'),
+    'plain': os.path.join('body', 'cantemist', f'{KEYWORD}.txt'),
+    'html': os.path.join('body', 'cantemist', f'{KEYWORD}.html'),
 }
-visual_from_addr = 'alejandro.asensio@bsc.es'
-cc = ['martin.krallinger@bsc.es', 'aitor.gonzalez@bsc.es']
+visual_from_addr = 'antonio.miranda@bsc.es'
+cc = ['']
 
 # BSC corporate mail credentials
 host = 'mail.bsc.es'
@@ -44,8 +44,9 @@ with smtplib.SMTP_SSL(host, port, context=context) as server:
         reader = csv.reader(csv_file)
 
         next(reader)  # Skip header row
-        # for id, fullname, email, password, subject in reader:
-        for id, fullname, email, subject in reader:
+        # for fullname, email, password, subject in reader:
+        for fullname, email, subject in reader:
+        #for email, subject in reader:
             senders_length += 1
 
             message = MIMEMultipart("alternative")
@@ -88,6 +89,7 @@ with smtplib.SMTP_SSL(host, port, context=context) as server:
 
             # Command line output
             print(f"Sending email to '{fullname}<{email}>'...")
+            #print(f"Sending email to '<{email}>'...")
             # print(f'Message: {message}')
 
             # Wait 1 second before send each email to avoid collapsing the mail server

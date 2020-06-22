@@ -1,0 +1,102 @@
+Dear {fullname}:
+
+*** Call for Participation CodiEsp: Clinical Case Coding Task (eHealth CLEF 2020) ***
+
+ 
+
+ 
+
+CodiEsp (eHealth CLEF– Multilingual Information Extraction) Shared Task on automatic assignment of ICD10 codes (procedures, diagnosis) track at CLEF 2020
+
+http://temu.bsc.es/codiesp
+
+ 
+
+Plan TL Award for the CodiEsp Track
+
+ 
+
+ 
+
+The CodiEsp sub-tracks:
+
+1.CodiEsp Diagnosis Coding sub-task (CodiEsp-D): will require automatic ICD10-CM [CIE10 Diagnóstico] code assignment.
+
+2.CodiEsp Procedure Coding sub-task (CodiEsp-P): will require automatic ICD10-PCS [CIE10 Procedimiento] code assignment.
+
+3.CodiEsp Explainable AI exploratory sub-task (CodiEsp-X). Systems are required to submit the reference to the predicted codes (both ICD10-CM and ICD10-PCS).
+
+
+
+Task description
+
+Clinical coding consists in the transformation (or classification) of medical texts written by clinicians into a structured or coded format using internationally recognized class codes.
+
+
+These codes describe a patient’s diagnosis or treatment. This process is critical for standardizing clinical records; enable aetiology studies, monitor health trends, epidemiology studies, clinical and biomedical research, decision-making or even reimbursement.
+
+
+As part of the eHealth CLEF (http://clef-ehealth.org) Multilingual Information Extraction Shared Task we organize CodiEsp: Clinical Case Coding Task (http://temu.bsc.es/codiesp). The CodiEsp task will address the automatic extraction and assignment of clinical coding (diagnosis and procedures) to clinical case documents in Spanish.
+
+
+In addition data in Spanish, we will also release training, development, and test set document translations into English.
+
+
+Participant systems have to automatically assign ICD10 codes (CIE-10, in Spanish) to clinical case documents, being evaluated against manually generated ICD10 codifications.
+
+
+Publications and workshop
+
+As in previous eHealth CLEF efforts, there will be an evaluation workshop allocated at CLEF 2020 where participating teams can present their systems and obtained results. Moreover, participating teams will be invited to submit their system description papers for publication at the CLEF 2020 Working Notes proceedings. For previous working notes see: http://ceur-ws.org/Vol-2125/
+
+ 
+
+CodiEsp awards
+
+There will we three awards for the three top-scoring teams promoted by the Spanish Plan for the Advancement of Language Technology (Plan TL) and the Barcelona Supercomputing Center (BSC).
+
+ 
+
+--------------------------------------
+
+Participation and useful info
+
+--------------------------------------
+
+    CodiEsp web, info & detailed description:http://temu.bsc.es/codiesp/
+    Registration for CodiEsp (Multilingual Information Extraction eHealth track):http://temu.bsc.es/codiesp/index.php/2019/09/19/registration/
+    Datasets:https://zenodo.org/record/3633048#.XjRNut-YU5k
+    Additional training resources:https://zenodo.org/record/3606626#.XhyWLN-YU5k
+
+ 
+
+------------------------
+
+Main CodiEsp Track organizers
+
+------------------------
+
+    Martin Krallinger, Barcelona Supercomputing Center.
+    Antonio Miranda, Barcelona Supercomputing Center.
+    Aitor Gonzalez-Agirre, Barcelona Supercomputing Center.
+    Marta Villegas, Barcelona Supercomputing Center.
+    Jordi Armengol, Barcelona Supercomputing Center.
+
+ 
+
+------------------------
+
+Important Dates
+
+------------------------
+Jan 13 	Train, development and additional training resources set release (Spanish)
+March 2 	Test and background set release and English machine translation of the dataset release
+April 28	Task setting discussion workshop at MIE2020 (Geneva)
+May 3	End of evaluation
+May 5 	Results notified
+May  24	Paper submission
+Jun 28	Camera-ready paper submission
+Sep 22-25	CLEF 2020 Conference (Thessaloniki, Greece)
+
+
+

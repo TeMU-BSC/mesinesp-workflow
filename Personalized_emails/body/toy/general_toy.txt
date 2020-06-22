@@ -1,0 +1,106 @@
+*** Call for Participation Cantemist:
+CANcer TExt Mining Shared Task (IberLEF - SEPLN 2020) ***
+
+ 
+
+Named Entity Recognition of Tumor Morphology Mentions and ICD-O-3 coding track at SEPLN 2020
+
+https://temu.bsc.es/cantemist/
+
+ 
+
+Plan TL Award for the Cantemist Track winners
+
+ 
+
+Following the success of previous shared tasks we have coordinated in collaboration with the BioCreative challenges (e.g. ChemDNER, ChemProt), BioNLP-OST (PharmaCoNER), eHealth CLEF (CodiEsp) or IberLEF2019 (MEDDOCAN) we are organizing the first shared task specifically focusing on named entity recognition of a critical type of concept related to cancer, namely tumor morphology, called CANTEMIST. These previous efforts resulted in high impact datasets, publications and new tools.  
+
+ 
+
+The Cantemist sub-tracks:
+
+1.CANTEMIST-NER: finding mentions of tumor morphology in oncology cases.
+
+2.CANTEMIST-NORM: recognition and mapping to concept identifiers from ICD-O-3.
+
+3.CANTEMIST-CODING: oncology clinical coding (multi-label classification) assigning ICD-O-3 codes to clinical case documents.
+
+ 
+
+Key information
+
+1.     Cantemist web, info & detailed description: https://temu.bsc.es/cantemist/
+
+2.     Registration for Cantemist: https://temu.bsc.es/cantemist/?p=3956
+
+3.     Datasets: https://zenodo.org/record/3878488
+
+ 
+
+Task motivation
+
+There is a pressing need to apply natural language processing (NLP) and text mining technologies to process clinical texts in order to unlock critical information that enables better clinical decision-making. NLP can facilitate the use of information from literature and electronic health records in biomedical data analysis. Understanding diseases requires the extraction of certain key entities like diseases, treatments or symptoms and their attributes from textual data, as has become clear from the recent COVID-19 (SARS-CoV-2, coronavirus disease) pandemic, which showed the current struggle in processing clinical documents written in various languages.
+
+With over 470 million native speakers, there is a worldwide interest in processing medical texts in Spanish (every 10 minutes, tens of thousands of EHRs are produced just in Spain). Such technologies also have the potential of being adapted to handle other languages, like Italian, German, French or even English.
+
+Results of systems capable of automatically processing clinical texts are not only of interest for the medical user community or researchers working on basic and applied health-related disciplines, but are also demanded by the pharmaceutical industry and ultimately by patients.
+
+Due to the special relevance of cancer as one of the leading causes of death and the growing healthcare expenditures for oncological treatments a specific classification resource for oncology has been constructed by the WHO known as International Classification of Diseases for Oncology (ICD-O). The CIE-O has been used for over 25 years as a standard resource to code diagnosis of neoplasms in tumor and cancer registries as well as pathology reports.
+
+ 
+
+Important dates
+
+June, 5: Train set and guidelines release
+
+June, 12: First development set release
+
+July, 3: Test and Background set release
+
+Aug, 3: End of the evaluation period
+
+Aug, 14: Paper submission
+
+Sep 1: Camera-ready paper submission
+
+Sep 23-25: SEPLN 2020 Conference
+
+ 
+
+Publications and workshop
+
+There will be an evaluation workshop allocated at SEPLN 2020 where participating teams can present their systems and results. Moreover, participating teams will be invited to submit their system description papers for publication at the SEPLN 2020 Working Notes proceedings. For previous working notes see: http://ceur-ws.org/Vol-2421/
+
+ 
+
+Cantemist awards
+
+There will be three awards for the top-scoring teams promoted by the Spanish Plan for the Advancement of Language Technology (Plan TL) and the Barcelona Supercomputing Center (BSC).
+
+ 
+
+Main Track organizers
+
+Martin Krallinger, Barcelona Supercomputing Center
+Antonio Miranda, Barcelona Supercomputing Center
+Eulàlia Farré, Barcelona Supercomputing Center
+Jose A. Lopez Martin, Medical Oncology, Hospital 12 de Octubre, Spain
+ 
+
+ 
+
+Scientific Committee
+
+ 
+
+Kirk Roberts, School of Biomedical Informatics, University of Texas Health Science Center, USA
+Parminder Bhatia, Amazon Health AI, USA
+Irene Spasic, School of Computer Science & Informatics, co-Director of the Data Innovation Research Institute, Cardiff University, UK
+Tristan Naumann, Microsoft Research Healthcare NExT, USA
+Carlos Luis Parra Calderón, Head of Technological Innovation, Virgen del Rocío University Hospital, Institute of Biomedicine of Seville, Spain
+Alfonso Valencia Herrera, Barcelona Supercomputing Center (BSC-CNS), Spain
+Hercules Dalianis, Department of Computer and Systems Sciences, Stockholm University, Sweden
+Kevin Bretonnel Cohen, Colorado School of Medicine, USA; LIMSI, CNRS, Université Paris-Saclay, France
+Karin Verspoor, School of Computing and Information Systems, Health and Biomedical Informatics Centre, University of Melbourne, Australia
+Aurélie Névéol, LIMSI-CNRS, Université Paris-Sud, France
+
