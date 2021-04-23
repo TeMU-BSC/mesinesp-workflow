@@ -1,0 +1,87 @@
+Dear {fullname}:
+
+*** 2nd CFP  MESINESP2 track: Medical Semantic Indexing (BioASQ – CLEF 2021) ***
+
+https://temu.bsc.es/mesinesp2/ 
+
+MESINESP2 Awards by BSC-Plan TL [2,700€]
+
+Test sets and additional data are now available
+
+
+There is a pressing need for advanced multilingual semantic search strategies for health related content like literature, patents and clinical trials (cross-genre). The use of semantic search techniques in combination with structured vocabularies is critical for sophisticated searches or content analysis as needed by healthcare professionals, researchers, the pharmaceutical industry, patient groups and private citizens.
+
+Following the impact of past BioASQ tracks for benchmarking studies (e.g. BioBERT) and organization of other initiatives like BioCreative or IberLEF, we propose three semantic labelling subtracks using the widely used DeCS vocabulary (similar to MeSH terms):
+ 
+MESINESP-L – Scientific Literature: for automatic labelling of medical literature abstracts in Spanish (including recent COVID-19 literature).
+
+MESINESP-T – Clinical trials: for automatic labelling of clinical trials summaries.
+
+MESINESP-P – Patents: for automatic labelling of health-related patents in Spanish to improve patent intelligence.
+
+------------------------------------------------------------------------------
+Key information
+------------------------------------------------------------------------------
+
+Web: https://temu.bsc.es/mesinesp2 
+Registration: http://clef2021-labs-registration.dei.unipd.it/ (BioASQ Task 3 - MESINESP)
+Data: https://doi.org/10.5281/zenodo.4707104
+
+MESINESP2 is organized in close collaboration with widely used multilingual medical literature databases (BIREME/WHO, ISCIII/Spain), which expressed a direct need for advanced technologies to accelerate manual indexing efforts for the contents in Spanish (spoken globally by over 572 million people). They do face a challenge to keep up with the increasing number of published medical papers when using purely manual indexing.
+
+A large manually indexed collection of training documents will be provided. These documents have already been automatically annotated (> 1.5 million entity mentions) with  medical entities such as diseases, medical procedures, drugs and symptoms to facilitate the use of complementary strategies like multi-label classification, multilingual transformers, graph matching, text similarity, advanced term matching or named entity recognition components. 
+
+Participating systems will be directly useful for ongoing medical literature indexing efforts, and thus improve competitive intelligence/prior art searches, enable complex search queries needed for evidence-based medicine, clinical decision making, or elaboration of clinical practice guidelines and serve as base for future tasks on semantic indexing of medical records or content in other languages. 
+ 
+------------------------------------------------------------------------------
+Important dates
+------------------------------------------------------------------------------
+April 19: Updated Train, Validation and Test sets release
+April 19: Additional datasets release (Medical entities present in documents)
+April , 30: BioASQ9 Lab @CLEF 2021 Registration Deadline
+May, 7: Start of the evaluation period
+May, 17: End of the evaluation period
+May,28 :Submission of Participant Papers at CLEF2021
+July, 2: Camera ready paper submission.
+Sep 21-24: CLEF 2021 Conference
+
+------------------------------------------------------------------------------
+Publications and BioASQ/CLEF2021 workshop
+------------------------------------------------------------------------------
+Teams participating in MESINESP2 will be invited to contribute a systems description paper for the BioASQ (CLEF 2021) Working Notes proceedings, and a short presentation of their approach at the BioASQ 2021 workshop.
+
+------------------------------------------------------------------------------
+Main Track organizers
+------------------------------------------------------------------------------
+    Martin Krallinger, Barcelona Supercomputing Center (BSC), Spain.
+    Luis Gascó, Barcelona Supercomputing Center (BSC), Spain.
+    Anastasios Nentidis, National Center for Scientific Research Demokritos, Greece.
+    Elena Primo-Peña, Biblioteca Nacional de Ciencias de Salud. Instituto de Salud Carlos III, Spain.
+    Cristina Bojo Canales, Biblioteca Nacional de Ciencias de la Salud. Instituto de Salud Carlos III, Spain.
+    George Paliouras, National Center for Scientific Research Demokritos, Greece.
+    Anastasia Krithara, National Center for Scientific Research Demokritos, Greece.
+    Renato Murasaki, BIREME – Organización Panamericana de la Salud (WHO), Brasil.
+ 
+------------------------------------------------------------------------------
+Scientific Committee
+------------------------------------------------------------------------------
+    Tristan Naumann, Microsoft Research (USA)
+    Prof. Xavier Tannier, Sorbonne Université and LIMICS (France)
+    Lucy Lu Wang, Allen Institute for AI (AI2) (USA)
+    Prof. David Camacho, Applied Intelligence and Data Analysis Research Group, Universidad Politécnica de Madrid (Spain)
+    Prof. Oscar Corcho, Ontology Engineering Group, Universidad Politécnica de Madrid (Spain)
+    Parminder Batia, Amazon Health AI (USA)
+    Prof. Irena Spasic, School of Computer Science & Informatics, co-Director of the Data Innovation Research Institute, Cardiff University (UK)
+    Natalia Manola, CEO at OpenAIRE AMKE (Greece)
+    Jose Luis Redondo García, Amazon Alexa, Amazon (UK)
+    Carlos Badenes-Olmedo, Ontology Engineering Group, Universidad Politécnica de Madrid (Spain)
+    Prof. Allan Hanbury,  E-Commerce Research Unit in the Faculty of Informatics, TU Wien (Austria)
+    Prof. Alfonso Valencia, Barcelona Supercomputing Center (Spain)
+    Prof. Stefan J. Darmoni, Department of Biomedical Informatics, Rouen University Hospital (France) and LIMICS (France)
+    Rezarta Islamaj, National Center for Biotechnology Information (USA)
+    Prof. Rafael Berlanga Llavori, Universidad Jaume I (Spain)
+    Prof. Henning Müller, University of Applied Sciences Western Switzerland – Valais (Switzerland)
+    Prof. Gareth J.F. Jones, School of Computing at Dublin City University (Ireland)
+    Georg Rehm, Deutsches Forschungszentrum für Künstliche Intelligenz (Germany)
+    Petr Knoth, Research Studios Austria Forschungsgesellschaft mbH (Austria)
+    Prof. Jesús Tramullas, Departamento de Ciencias de la Documentación e Historia de la Ciencia, Universidad de Zaragoza (Spain)

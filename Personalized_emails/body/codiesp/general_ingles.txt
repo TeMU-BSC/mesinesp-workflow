@@ -1,0 +1,125 @@
+*** Call for Participation CodiEsp: Clinical Case Coding Task (eHealth CLEF 2020) ***
+
+ 
+
+ 
+
+CodiEsp (eHealth CLEF– Multilingual Information Extraction) Shared Task on automatic assignment of ICD10 codes (procedures, diagnosis) track at CLEF 2020
+
+http://temu.bsc.es/codiesp
+
+ 
+
+Plan TL Award for the CodiEsp Track
+
+ 
+
+ 
+
+The CodiEsp sub-tracks:
+
+1.CodiEsp Diagnosis Coding sub-task (CodiEsp-D): will require automatic ICD10-CM [CIE10 Diagnóstico] code assignment to each clinical case document.
+
+2.CodiEsp Procedure Coding sub-task (CodiEsp-P): will require automatic ICD10-PCS [CIE10 Procedimiento] code assignment to each clinical case document.
+
+3.CodiEsp Explainable AI exploratory sub-task (CodiEsp-X). Systems are required to extract the evidence text supporting the predicted codes (both ICD10-CM and ICD10-PCS).
+
+ 
+
+Task description
+
+Clinical coding essentially requires the transformation (or classification) of medical texts into a structured or coded format using internationally recognized class codes.
+
+These codes describe a patient’s diagnosis or treatment. Clinical coding is critical for standardizing electronic clinical records; enable aetiology studies, monitor health trends, carry out epidemiology studies, clinical and biomedical research, assist clinical decision-making or even reimbursement.
+
+As part of the eHealth CLEF (https://clefehealth.imag.fr/) Multilingual Information Extraction Shared Task we organize CodiEsp: Clinical Case Coding Task (http://temu.bsc.es/codiesp). The CodiEsp task will address the automatic extraction and assignment of clinical coding (diagnosis and procedures) to clinical case documents in Spanish.
+
+To enable participation of researches around the world, in addition to the basic data in Spanish, we will also publish versions of the training, development, and test set automatically translated into English.
+
+Participating systems will be asked to automatically assign ICD10 codes (or CIE-10, in Spanish) to clinical case documents. Evaluation is done through comparison to manually assigned ICD10 codes.
+
+Publications and workshop
+
+As in previous eHealth CLEF efforts, there will be an evaluation workshop allocated at CLEF 2020 where participating teams can present their systems and results. Moreover, participating teams will be invited to submit their system description papers for publication at the CLEF 2020 Working Notes proceedings. For previous working notes see: http://ceur-ws.org/Vol-2125/
+
+ 
+
+CodiEsp awards
+
+There will we three awards for the top-scoring teams promoted by the Spanish Plan for the Advancement of Language Technology (Plan TL) and the Barcelona Supercomputing Center (BSC).
+
+--------------------------------------
+
+Participation and useful info
+
+--------------------------------------
+
+    CodiEsp web, info & detailed description:http://temu.bsc.es/codiesp/
+    Registration for CodiEsp (Multilingual Information Extraction eHealth track):http://temu.bsc.es/codiesp/index.php/registration/
+    Datasets:https://zenodo.org/record/3693570
+    Additional training resources:https://doi.org/10.5281/zenodo.3606662
+
+ 
+
+------------------------
+
+Main CodiEsp Track organizers
+
+------------------------
+
+    Martin Krallinger, Barcelona Supercomputing Center.
+    Antonio Miranda, Barcelona Supercomputing Center.
+    Aitor Gonzalez-Agirre, Barcelona Supercomputing Center.
+    Marta Villegas, Barcelona Supercomputing Center.
+    Jordi Armengol, Barcelona Supercomputing Center.
+
+ 
+
+------------------------
+
+Important Dates
+
+------------------------
+
+Jan 13
+	
+
+Train, development and additional training resources set release (Spanish)
+
+March 2
+	
+
+Test and background set release and English machine translation of the dataset release
+
+April 28
+	
+
+Task setting discussion workshop at MIE2020 (Geneva)
+
+May 3
+	
+
+End of evaluation
+
+May 5
+	
+
+Results notified
+
+May  24
+	
+
+Paper submission
+
+Jun 28
+	
+
+Camera-ready paper submission
+
+Sep 22-25
+	
+
+CLEF 2020 Conference (Thessaloniki, Greece)
+
+
+

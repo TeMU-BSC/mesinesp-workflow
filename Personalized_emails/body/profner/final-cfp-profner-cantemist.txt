@@ -1,0 +1,80 @@
+Dear {fullname}:
+
+
+We think the ProfNER track might be of interest to you, as, in addition to the associated scientific impact (NAACL workshop on SMM4H and proceedings/systems description papers) we are basically using the same input format and evaluation criteria as was the case for our previous Cantemist track. This implies that it could be interesting to retrain or adapt the NER pipelines you have previously used.
+
+
+
+
+*** CFP SMM4H-SPANISH: ProfNER Shared Task (SMM4H - NAACL 2021) ***
+
+ProfNER: Identification of professions & occupations in Health-related Social Media (SMM4H at NAACL)
+https://temu.bsc.es/smm4h-spanish/
+
+
+We are organizing the first shared task specifically focusing on named entity recognition of professions & occupations in Social Media in Spanish.
+Specifically, we focus on Twitter data related to Covid-19 and lock-downs.
+ProfNER is part of The Social Media Mining for Health Applications (#SMM4H) Shared Task 2021.
+A version of the provided ProfNER corpus translated automatically into English (ProfNER-MT) is also available to participating teams.
+
+
+The ProfNER sub-tracks:
+Tweet binary classification: Participants must determine whether a tweet contains a mention of occupation, or not.
+NER offset detection and classification: Participants must find the beginning and end of occupation mentions and classify them in the corresponding category
+
+
+Key information:
+ProfNER web: https://temu.bsc.es/smm4h-spanish/
+Datasets: https://doi.org/10.5281/zenodo.4309356
+Registration: https://forms.gle/1qs3rdNLDxAph88n6
+CodaLab: https://competitions.codalab.org/competitions/28766
+
+
+Other ProfNER resources:
+Embeddings (Twitter Spanish): https://doi.org/10.5281/zenodo.4449929
+Professions and occupation gazetteer: https://doi.org/10.5281/zenodo.4524658
+
+
+Task motivation
+Some workers are at the forefront of the battle against the COVID-19 pandemic. Detecting vulnerable occupations is critical to prepare preventive measures related to exposure to the virus as well as indirect mental health issues due to fear of infection, confinement, etc.
+NLP systems benefit from recent NLP technologies such as transformers, novel language technologies and transfer learning and from the vast production of real-time data in social media.
+Following the previous organization of shared task with high impact with a considerable number of participants [Cantemist], [CodiEsp], [Meddocan] we are organizing the ProfNER track. It promotes the development of profession & occupation-related text mining resources in Spanish social media due to the special relevance of professions in the definition of at-risk groups.
+Systems capable of automatically processing social media texts are of interest to the medical user community, researchers, the pharmaceutical industry as well as patients. The detection of profession & occupation information is relevant for general NLP, occupational data mining, etc.
+Competing systems have the potential to generalize to alike use cases in other content types such as medical reports and in other languages.
+
+
+Important dates
+Dec, 15: Training & Development set release
+Feb, 25: Validation set submission due [Required]
+Mar, 1: Test set & background set release
+Mar, 4: Test set predictions due
+Mar, 15: System descriptions due
+Apr, 1: Acceptance notification
+Apr, 12: Camera-ready system descriptions
+June 6–11: NAACL 2021 conference
+
+
+Publications and workshop
+Each participating team will have the opportunity to submit a system description which will be published as part of the shared task proceedings.
+The 6th SMM4H Workshop, co-located at NAACL 2021 More details are available at https://healthlanguageprocessing.org/smm4h-2021/
+
+
+Track Organizers
+Martin Krallinger, Barcelona Supercomputing Center, Spain
+Antonio Miranda-Escalada, Barcelona Supercomputing Center, Spain
+Eulàlia Farré, Barcelona Supercomputing Center, Spain
+Salvador Lima, Barcelona Supercomputing Center, Spain
+Vicent Briva-Iglesias, D-REAL, Dublin City University, Ireland
+
+
+SMM4H Organizers
+Graciela Gonzalez-Hernandez, University of Pennsylvania, USA
+Davy Weissenbacher, University of Pennsylvania, USA
+Ari Z. Klein, University of Pennsylvania, USA
+Karen O’Connor, University of Pennsylvania, USA
+Abeed Sarker, Emory University, USA
+Elena Tutubalina, Kazan Federal University, Russia
+Zulfat Miftahutdinov, Kazan Federal University, Russia
+Ilsear Alimova, Kazan Federal University, Russia
+Martin Krallinger, Barcelona Supercomputing Center, Spain
+Juan Banda, Georgia State University, USA
