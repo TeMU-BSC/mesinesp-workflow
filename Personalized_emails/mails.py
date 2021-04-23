@@ -3,6 +3,7 @@ Script to send personalized mails using TXT and HTML template files.
 
 Author: Aitor González <aitor.gonzalez@bsc.es>
 Refactored by: Alejandro Asensio <alejandro.asensio@bsc.es>
+Added support to attachments: Antonio Miranda <antonio.miranda@bsc.es>
 '''
 
 import csv
@@ -12,6 +13,8 @@ import ssl
 import time
 from email.header import Header
 from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
+from os.path import basename
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
@@ -20,19 +23,22 @@ from getpass import getpass
 
 # Hardcoded variables
 KEYWORD = input('Template KEYWORD: ')
+ATTACHMENT = input('Path to attachment (ENTER to skip this): ')
 senders_list = os.path.join(f'{KEYWORD}.csv')
 body = {
-    'plain': os.path.join('body', 'mesinesp', f'{KEYWORD}.txt'),
-    'html': os.path.join('body', 'mesinesp', f'{KEYWORD}.html'),
+    'plain': os.path.join('body', 'meddoprof', f'{KEYWORD}.txt'),
+    'html': os.path.join('body', 'meddoprof', f'{KEYWORD}.html'),
 }
-visual_from_addr = 'alejandro.asensio@bsc.es'
-cc = ['martin.krallinger@bsc.es', 'aitor.gonzalez@bsc.es']
+visual_from_addr = 'antonio.miranda@bsc.es'
+#cc = ['antoniomiresc@gmail.com']
+cc = ['antoniomiresc@gmail.com']
 
 # BSC corporate mail credentials
 host = 'mail.bsc.es'
 port = 465
 username = input('BSC intranet username [From]: ')
 password = getpass()
+
 
 # Stablish mailing server connection
 context = ssl.create_default_context()
@@ -44,14 +50,16 @@ with smtplib.SMTP_SSL(host, port, context=context) as server:
         reader = csv.reader(csv_file)
 
         next(reader)  # Skip header row
-        for id, fullname, email, password, subject in reader:
+        #for id, fullname, email, password, subject in reader:
+        for fullname, email, subject in reader:
+        #for email, subject in reader:
             senders_length += 1
 
             message = MIMEMultipart("alternative")
             message['From'] = visual_from_addr
             to = []
             to.append(email)
-            message['To'] = ','.join(to)
+            message['To'] = email
             message['Cc'] = ','.join(cc)
             message['Subject'] = Header(subject, 'utf-8')
 
@@ -65,6 +73,12 @@ with smtplib.SMTP_SSL(host, port, context=context) as server:
             part2 = MIMEText(html, 'html')
             message.attach(part2)
 
+            if (ATTACHMENT != '') & (os.path.exists(ATTACHMENT)==True):
+                with open(ATTACHMENT, "rb") as fil:
+                    part3 = MIMEApplication(fil.read(),Name=basename(ATTACHMENT))
+                # After the file is closed
+                part3['Content-Disposition'] = 'attachment; filename="%s"' % basename(ATTACHMENT)
+                message.attach(part3)
             # ===== Attachments =====
 
             # filename = 'sample-' + sample_id + '.xlsx'
@@ -87,13 +101,31 @@ with smtplib.SMTP_SSL(host, port, context=context) as server:
 
             # Command line output
             print(f"Sending email to '{fullname}<{email}>'...")
+            #print(f"Sending email to '<{email}>'...")
             # print(f'Message: {message}')
 
             # Wait 1 second before send each email to avoid collapsing the mail server
             time.sleep(1)
 
             # Finally send the email
+            print(fullname)
             server.sendmail(
+                message['From'],
+                (to),
+                message.as_string().format(
+                    fullname=fullname,
+                    email=email
+                ).encode('utf-8')
+            )
+            
+            '''server.sendmail(
+                message['From'],
+                (to + cc),
+                message.as_string().format(
+                    email=email
+                ).encode('utf-8')
+            )'''
+            '''server.sendmail(
                 message['From'],
                 (to + cc),
                 message.as_string().format(
@@ -101,6 +133,6 @@ with smtplib.SMTP_SSL(host, port, context=context) as server:
                     email=email,
                     password=password
                 ).encode('utf-8')
-            )
+            )'''
 
     print(f'Finished OK. {senders_length} email(s) have been sent successfully.')
